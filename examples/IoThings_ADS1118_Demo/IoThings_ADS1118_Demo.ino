@@ -6,7 +6,7 @@ IO_ADS1118 ads(10);
 void setup()
 {
   Serial.begin(115200);
-  Serial.println("IoTech ADS1118 Arduino Test");
+  Serial.println("IoThings ADS1118 Arduino Test");
   
   ads.begin();
   ads.setGain(G2_048);
