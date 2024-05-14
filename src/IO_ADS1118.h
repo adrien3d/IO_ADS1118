@@ -3,8 +3,8 @@
 
   Designed to work with all kinds of ADS1118 Breakout
 
-  These sensors use I2C to communicate, 2 pins are required
-  to interface.
+  These sensors use SPI to communicate, 3 pins are required
+  to interface (CS that can be customized, and the default MOSI and MISO).
 
   Written by Adrien Chapelet for IoThings
  ***************************************************************************/
